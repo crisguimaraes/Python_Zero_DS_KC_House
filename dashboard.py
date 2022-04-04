@@ -21,7 +21,7 @@ st.title('House Rocket Analysis')
 @st.cache(allow_output_mutation=True)
 def get_data(path):
     data = pd.read_csv( path )
-    data['date'] = pd.to_datetime(data['date']).dt.strftime('%Y-%m-%d')
+
 
     return data
 
