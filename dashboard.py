@@ -186,6 +186,7 @@ def  commercial_distribution(data):
     st.sidebar.subheader('Select Price per Day')
 
     # Filters
+    data['date'] = pd.to_datetime(data['date']).dt.strftime( '%Y-%m-%d')
     min_date = datetime.strptime(data['date'].min(), '%Y-%m-%d')
     max_date = datetime.strptime(data['date'].max(), '%Y-%m-%d')
 
@@ -291,3 +292,5 @@ if __name__ == '__main__':
     commercial_distribution(data)
 
     attributes_distribution(data)
+
+
