@@ -113,6 +113,7 @@ Filtro que permita selecionar um ou mais códigos;
 12. Mapa exibindo a localização dos imóveis indicados para compra;
 
 13. Relatório contendo a melhor estação para venda imóveis e valor de venda recomendado. 
+
 • Para cada região com imóveis sugeridos para compra, identificar a variação de preço médio por sazonalidade, para sugerir a venda na sazonalidade onde os valores são mais elevados.
 
 • Se o preço da compra do imóvel for maior que o preço médio da região + sazonalidade de maior preço, o preço da venda sugerido será igual ao preço da compra + 10%. Se o preço da compra do imóvel for menor que o preço médio da região + sazonalidade de maior preço, o preço da venda sugerido será igual ao preço da compra + 30%.
